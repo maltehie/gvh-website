@@ -169,7 +169,7 @@ li a {
   text-decoration: none;
 }
 
-section.subsection {
+.subsection {
   min-height: 60vh;
   height: fit-content;
   margin: 10vh;
@@ -207,7 +207,7 @@ section.subsection {
   margin-top: 1rem;
 }
 
-.subsection .subsection-content {
+.subsection-content {
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -267,7 +267,6 @@ footer {
     align-content: center;
     justify-content: center;
     transition: 0.7s ease;
-    padding: 2%;
     object-fit: contain;
     flex-direction: row;
   }
@@ -277,6 +276,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    padding: 0;
   }
 
   #mobile-nav.show{
@@ -305,34 +305,6 @@ footer {
     margin-left: 8px;
   }
 
-  section.subsection{
-    margin-left: 5vh;
-    margin-right: 5vh;
-    padding: 1rem;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    height: fit-content;
-    max-height: fit-content;
-    text-justify: auto;
-  }
-
-  .subsection-content{
-    margin: 0.5rem;
-    padding: 0;
-    height: fit-content;
-    justify-content: left;
-    align-content: flex-end;
-    width: 100%;
-  }
-
-  #sec-hero{
-    margin: 0;
-    padding: 1rem;
-    justify-content: center;
-    align-content: center;
-  }
-
   #crest{
     margin-top: 1rem;
     max-width: 100%;
@@ -346,24 +318,13 @@ footer {
     margin: 0;
   }
 
-  .wlfz-container{
-    justify-content: center;
-    align-content: center;
-    margin: 1rem;
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .wlfz{
-    justify-content: center;
-    align-content: center;
-  }
-
-  .wlfz-desc{
+.subsection-content{
+    max-width: 100%;
     width: 100%;
+    margin: 1.5rem;
   }
 
-  .main-txt{
-    text-wrap: wrap;
-  }
+.subsection{
+  margin: 5vh;
+}
 }
