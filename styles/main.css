@@ -216,6 +216,7 @@ section.subsection {
   width: auto;
   justify-content: center;
   margin: 2%;
+  text-wrap: wrap;
 }
 
 footer {
@@ -256,14 +257,26 @@ footer {
   #mobile-nav{
     display: flex;
     position: absolute;
+    flex-wrap: wrap;
     top: 60pt;
     left: 100vw;
-    height: 60pt;
+    min-height: 60pt;
+    height: max-content;
     background-color: #fcf8ed;
     width: 100vw;
     align-content: center;
     justify-content: center;
     transition: 0.7s ease;
+    padding: 2%;
+    object-fit: contain;
+    flex-direction: row;
+  }
+
+  #mobile-nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
 
   #mobile-nav.show{
@@ -290,5 +303,67 @@ footer {
     top: -8px;
     margin: -8px;
     margin-left: 8px;
+  }
+
+  section.subsection{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    max-height: fit-content;
+    text-justify: auto;
+  }
+
+  .subsection-content{
+    margin: 0.5rem;
+    padding: 0;
+    height: fit-content;
+    justify-content: left;
+    align-content: flex-end;
+    width: 100%;
+  }
+
+  #sec-hero{
+    margin: 0;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #crest{
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  #hero-txt{
+    margin-bottom: -4rem;
+  }
+
+  #btn-more{
+    margin: 0;
+  }
+
+  .wlfz-container{
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .wlfz{
+    justify-content: center;
+    align-content: center;
+  }
+
+  .wlfz-desc{
+    width: 100%;
+  }
+
+  .main-txt{
+    text-wrap: wrap;
   }
 }
