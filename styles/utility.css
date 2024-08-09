@@ -1,0 +1,159 @@
+.vcp-blau {
+    color: #004287;
+}
+
+.bg-blau{
+    background-color: #004287;
+}
+
+.vcp-wasserblau {
+    color: #00b0eb;
+}
+
+.bg-wasserblau{
+    background-color: #00b0eb;
+}
+
+.vcp-luftgrau {
+    color: #cdd1ca;
+}
+
+.bg-luftgrau{
+    background-color: #cdd1ca;
+}
+
+.vcp-feuerrot {
+    color: #e94653;
+}
+
+.bg-feuerrot{
+    background-color: #e94653;
+}
+
+.vcp-feuergelb {
+    color: #fecf16;
+}
+
+.bg-feuergelb{
+    background-color: #fecf16;
+}
+
+.vcp-erdbraun {
+    color: #603609;
+}
+
+.bg-erdbraun{
+    background-color: #603609;
+}
+
+.bg-offwhite{
+    background-color: #fcf8ed;
+}
+
+.kinderstufe {
+    color: #ed3422;
+}
+
+.jupfi {
+    color: #5cbd00;
+}
+
+.pfadi {
+    color: #00834d;
+}
+
+.rr {
+    color: #701a32;
+}
+
+.senioren {
+    color: #4f2778;
+}
+
+.off-white {
+    color: #fcf8ed;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.scl-std {
+    font-size: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.scl-imp {
+    font-size: 1.3rem;
+}
+
+.scl-h {
+    font-size: 2rem;
+}
+
+.scl-h1{
+    font-size: 3rem;
+}
+
+.scl-h0 {
+    font-size: 6rem;
+}
+
+.scl-wlfz {
+    /*font-size: 30rem;*/
+    font-size: 27vw;
+}
+
+.lh-0-5{
+    line-height: 0.5rem;
+}
+
+.lh-0-1{
+    line-height: 0.1rem;
+}
+
+.lh-1-5{
+    line-height: 1.5rem;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.txt-l{
+    text-align: left;
+}
+
+.r45{
+    transition: 1s ease;
+    rotate: 45deg;
+}
+
+.r315{
+    transition: 1s ease;
+    rotate: 315deg;
+}
+
+.hide{
+    transition: 0.05s;
+    opacity: 0;
+}
+
+.debug{
+    border: tomato 5px dashed;
+}

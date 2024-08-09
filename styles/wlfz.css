@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "waldlaeuferzeichen-pfadfinden";
+  src:url("../fonts/waldlaeuferzeichen-pfadfinden.eot");
+  src:url("../fonts/waldlaeuferzeichen-pfadfinden.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/waldlaeuferzeichen-pfadfinden.woff") format("woff"),
+    url("../fonts/waldlaeuferzeichen-pfadfinden.ttf") format("truetype"),
+    url("../fonts/waldlaeuferzeichen-pfadfinden.svg#waldlaeuferzeichen-pfadfinden") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "waldlaeuferzeichen-pfadfinden" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="vcpwlz-"]:before,
+[class*=" vcpwlz-"]:before {
+  font-family: "waldlaeuferzeichen-pfadfinden" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vcpwlz-regular{
+  font-family: "waldlaeuferzeichen-pfadfinden";
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vcpwlz-wlz-einzeln-1:before {
+  content: "a";
+}
+.vcpwlz-wlz-einzeln-2:before {
+  content: "b";
+}
+.vcpwlz-wlz-einzeln-3:before {
+
+  content: "c";
+}
+.vcpwlz-wlz-einzeln-4:before {
+  content: "d";
+}
+.vcpwlz-wlz-einzeln-5:before {
+  content: "e";
+}
+.vcpwlz-wlz-einzeln-6:before {
+  content: "f";
+}
+.vcpwlz-wlz-einzeln-7:before {
+  content: "g";
+}
+.vcpwlz-wlz-einzeln-8:before {
+  content: "h";
+}
+.vcpwlz-wlz-einzeln-9:before {
+  content: "i";
+}
+.vcpwlz-wlz-einzeln-10:before {
+  content: "j";
+}
+.vcpwlz-wlz-einzeln-11:before {
+  content: "k";
+}
+.vcpwlz-wlz-einzeln-12:before {
+  content: "l";
+}
+.vcpwlz-wlz-einzeln-13:before {
+  content: "m";
+}
+.vcpwlz-wlz-einzeln-14:before {
+  content: "n";
+}
+.vcpwlz-wlz-einzeln-15:before {
+  content: "o";
+}
+.vcpwlz-wlz-einzeln-16:before {
+  content: "p";
+}
+.vcpwlz-wlz-einzeln-17:before {
+  content: "q";
+}
+.vcpwlz-wlz-einzeln-18:before {
+  content: "r";
+}
+.vcpwlz-wlz-einzeln-19:before {
+  content: "s";
+}
+.vcpwlz-wlz-einzeln-20:before {
+  content: "t";
+}
+.vcpwlz-wlz-einzeln-21:before {
+  content: "u";
+}
+.vcpwlz-wlz-einzeln-22:before {
+  content: "v";
+}
+.vcpwlz-wlz-einzeln-23:before {
+  content: "w";
+}
+.vcpwlz-wlz-einzeln-24:before {
+  content: "x";
+}
+.vcpwlz-wlz-einzeln-25:before {
+  content: "y";
+}
+.vcpwlz-wlz-einzeln-26:before {
+  content: "z";
+}
+.vcpwlz-wlz-einzeln-27:before {
+  content: "A";
+}
+.vcpwlz-wlz-einzeln-28:before {
+  content: "B";
+}
+.vcpwlz-wlz-einzeln-29:before {
+  content: "C";
+}
+.vcpwlz-wlz-einzeln-30:before {
+  content: "D";
+}
+.vcpwlz-wlz-einzeln-31:before {
+  content: "E";
+}
+.vcpwlz-wlz-einzeln-32:before {
+  content: "F";
+}
+.vcpwlz-wlz-einzeln-33:before {
+  content: "G";
+}
+.vcpwlz-wlz-einzeln-34:before {
+  content: "H";
+}
+.vcpwlz-wlz-einzeln-35:before {
+  content: "I";
+}
+.vcpwlz-wlz-einzeln-36:before {
+  content: "J";
+}
+.vcpwlz-wlz-einzeln-38:before {
+  content: "L";
+}
+.vcpwlz-wlz-einzeln-39:before {
+  content: "M";
+}
+.vcpwlz-wlz-einzeln-40:before {
+  content: "N";
+}
+.vcpwlz-wlz-einzeln-41:before {
+  content: "O";
+}
+.vcpwlz-wlz-einzeln-42:before {
+  content: "P";
+}
+.vcpwlz-wlz-einzeln-43:before {
+  content: "Q";
+}
+.vcpwlz-wlz-einzeln-44:before {
+  content: "R";
+}
+.vcpwlz-wlz-einzeln-45:before {
+  content: "S";
+}
+.vcpwlz-wlz-einzeln-46:before {
+  content: "T";
+}
+.vcpwlz-wlz-einzeln-47:before {
+  content: "U";
+}
+.vcpwlz-wlz-einzeln-48:before {
+  content: "V";
+}
+.vcpwlz-wlz-einzeln-50:before {
+  content: "X";
+}
+.vcpwlz-wlz-einzeln-51:before {
+  content: "Y";
+}
+.vcpwlz-wlz-einzeln-52:before {
+  content: "Z";
+}
+.vcpwlz-wlz-einzeln-54:before {
+  content: "9";
+}
+.vcpwlz-wlz-einzeln-55:before {
+  content: "0";
+}
+.vcpwlz-bullet-point:before {
+  content: "\2022";
+}
+.vcpwlz-wlz-einzeln-49:before {
+  content: "W";
+}
+.vcpwlz-wlz-einzeln-37:before {
+  content: "K";
+}
+.vcpwlz-wlz-einzeln-56-1:before {
+  content: "1";
+}

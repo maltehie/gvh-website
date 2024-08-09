@@ -1,0 +1,294 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #fcf8ed;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 60pt;
+  overflow: visible;
+  background-color: #fcf8ed;
+  align-content: center;
+  position: fixed;
+}
+
+header img {
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: 15pt;
+}
+
+.nav-container {
+  position: absolute;
+  right: 10pt;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.nav-items a:hover {
+  color: #e94653;
+  font-size: 1.5rem;
+  transition: 0.1s;
+}
+
+.nav-selected {
+  border-bottom: #004287 3px solid;
+  padding-bottom: 0.5rem;
+}
+
+#scroll-dots{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  padding: 2%;
+  height: 100vh;
+}
+
+.scrl-dot{
+  background-color: #cdd1ca;
+  height: 14px;
+  width: 14px;
+  border-radius: 7px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.scrl-dot a{
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+  border: rgba(0, 0, 0, 0) 7px solid;
+}
+
+.scrl-selected{
+  height: 50px;
+  transition: 0.3s;
+}
+
+li {
+  margin: 10pt;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#logo {
+  margin: 10pt;
+}
+
+#sec-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.38) 75%,
+      rgba(252, 248, 237, 1) 97%), url("../images/isaiah-ransom-7s_AEeawnMk-unsplash.jpg");
+  /* Path to your image */
+  background-size: cover;
+  /* Adjust the size to cover the entire container */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Prevent the image from repeating */
+}
+
+#crest-container {
+  /*border:#fecf16 5px dashed;*/
+  width: auto;
+  height: auto;
+  max-height: 60%;
+  padding-top: 60pt;
+}
+
+#crest {
+  max-height: 100%;
+}
+
+#sec-hero>image {
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+#hero-txt{
+  margin: 2%;
+}
+
+#sec-hero #btn-more {
+  width: auto;
+  height: 1.5em;
+  border: #fecf16 3px solid;
+  padding: 0.5em;
+  margin: 5em 1em;
+}
+
+#btn-more a:hover {
+  font-size: 1.5rem;
+}
+
+#btn-more a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+section.subsection {
+  min-height: 60vh;
+  height: fit-content;
+  margin: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10vh;
+  align-content: center;
+  padding: 5%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wlfz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  left: 0;
+}
+
+.wlfz-desc {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: -20%;
+  padding: 2%;
+}
+
+.teaser {
+  margin-bottom: -0.1rem;
+}
+
+.main-txt {
+  margin-top: 1rem;
+}
+
+.subsection .subsection-content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  flex-wrap: wrap;
+  max-width: 60%;
+  width: auto;
+  justify-content: center;
+  margin: 2%;
+}
+
+footer {
+  height: 20vh;
+  overflow: hidden;
+  text-align: unset;
+}
+
+#mobile-nav-container{
+  display: none;
+}
+
+#hmenu-container{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #web-nav{
+    display: none;
+  }
+
+  #hmenu-container{
+    display: initial;
+  }
+
+  #mobile-nav-container{
+    display: initial;
+  }
+
+  .hmenu-line{
+    border: #004287 4px solid;
+  }
+
+  .cross-line{
+    border: #e94653 4px solid;
+  }
+
+  #mobile-nav{
+    display: flex;
+    position: absolute;
+    top: 60pt;
+    left: 100vw;
+    height: 60pt;
+    background-color: #fcf8ed;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    transition: 0.7s ease;
+  }
+
+  #mobile-nav.show{
+    left: 0;
+    transition: 0.7s ease;
+  }
+
+  #hmenu{
+    position: absolute;
+    right: 10pt;
+    height: 100%;
+    align-content: center;
+  }
+
+  #hmenu > div {
+    width: 45px;
+    border-radius: 4px;
+    margin: 8px;
+    transition: 0.7s ease;
+  }
+
+  #hmenu > div#middle-2 {
+    position: relative;
+    top: -8px;
+    margin: -8px;
+    margin-left: 8px;
+  }
+}
