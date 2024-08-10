@@ -51,23 +51,23 @@
 }
 
 .kinderstufe {
-    color: #ed3422;
+    background-color: #ed3422;
 }
 
 .jupfi {
-    color: #5cbd00;
+    background-color: #5cbd00;
 }
 
 .pfadi {
-    color: #00834d;
+    background-color: #00834d;
 }
 
 .rr {
-    color: #701a32;
+    background-color: #701a32;
 }
 
 .senioren {
-    color: #4f2778;
+    background-color: #4f2778;
 }
 
 .off-white {
@@ -146,12 +146,16 @@
 
 .r315{
     transition: 1s ease;
-    rotate: 315deg;
+    rotate: -45deg;
 }
 
 .hide{
     transition: 0.05s;
     opacity: 0;
+}
+
+.hide-section{
+    display: none;
 }
 
 .debug{
