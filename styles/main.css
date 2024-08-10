@@ -267,6 +267,13 @@ li a {
 #btn-groups a {
   font-size: 1.3rem;
   text-decoration: none;
+  width: 100%;
+}
+
+@media (max-width: 389px) {
+  #btn-groups a{
+    font-size: 1rem;
+  }
 }
 
 footer {
