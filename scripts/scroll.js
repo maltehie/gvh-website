@@ -3,7 +3,8 @@ const navItems = {
     navVCP: document.getElementById('nav-vcp'),
     navGroups: document.getElementById('nav-groups'),
     navAbout: document.getElementById('nav-about'),
-    navContact: document.getElementById('nav-contact')
+    navContact: document.getElementById('nav-contact'),
+    navDummy: document.getElementById('wdummy')
 }
 
 const mnavItems = {
@@ -11,7 +12,8 @@ const mnavItems = {
     navVCP: document.getElementById('mnav-vcp'),
     navGroups: document.getElementById('mnav-groups'),
     navAbout: document.getElementById('mnav-about'),
-    navContact: document.getElementById('mnav-contact')
+    navContact: document.getElementById('mnav-contact'),
+    navDummy: document.getElementById('mdummy')
 }
 
 const scrlDots = {
@@ -28,6 +30,11 @@ const scrlDots = {
     scrlGroups: {
         dot: document.getElementById('scrl-groups'),
         bg: 'bg-feuergelb'
+    },
+
+    scrlSubgroups: {
+        dot: document.getElementById('scrl-subgroups'),
+        bg: 'bg-rainbow'
     },
 
     scrlAbout: {
@@ -64,6 +71,10 @@ window.addEventListener('scroll', function(){
             nav = navItems.navGroups;
             mnav = mnavItems.navGroups;
             dot = scrlDots.scrlGroups;
+        }else if(id == 'sec-subgroups'){
+            nav = navItems.navDummy;
+            mnav = mnavItems.navDummy;
+            dot = scrlDots.scrlSubgroups;
         }else if(id == 'sec-about'){
             nav = navItems.navAbout;
             mnav = mnavItems.navAbout;

@@ -2,7 +2,7 @@
     color: #004287;
 }
 
-.bg-blau{
+.bg-blau {
     background-color: #004287;
 }
 
@@ -10,7 +10,7 @@
     color: #00b0eb;
 }
 
-.bg-wasserblau{
+.bg-wasserblau {
     background-color: #00b0eb;
 }
 
@@ -18,7 +18,7 @@
     color: #cdd1ca;
 }
 
-.bg-luftgrau{
+.bg-luftgrau {
     background-color: #cdd1ca;
 }
 
@@ -26,7 +26,7 @@
     color: #e94653;
 }
 
-.bg-feuerrot{
+.bg-feuerrot {
     background-color: #e94653;
 }
 
@@ -34,7 +34,7 @@
     color: #fecf16;
 }
 
-.bg-feuergelb{
+.bg-feuergelb {
     background-color: #fecf16;
 }
 
@@ -42,11 +42,11 @@
     color: #603609;
 }
 
-.bg-erdbraun{
+.bg-erdbraun {
     background-color: #603609;
 }
 
-.bg-offwhite{
+.bg-offwhite {
     background-color: #fcf8ed;
 }
 
@@ -69,6 +69,27 @@
 .senioren {
     background-color: #4f2778;
 }
+
+.bg-rainbow {
+    background: linear-gradient(to bottom, 
+                #ed3422, 
+                #5cbd00, 
+                #00834d, 
+                #701a32,
+                #4f2778,
+                #ed3422 100%);
+    animation: moveGradient 2s infinite;
+    background-size: 200% 200%; /* Adjusted to ensure smoother transition */
+}
+
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 0% 200%;
+    }
+  }
 
 .off-white {
     color: #fcf8ed;
@@ -98,7 +119,7 @@
     font-size: 2rem;
 }
 
-.scl-h1{
+.scl-h1 {
     font-size: 3rem;
 }
 
@@ -111,15 +132,15 @@
     font-size: 27vw;
 }
 
-.lh-0-5{
+.lh-0-5 {
     line-height: 0.5rem;
 }
 
-.lh-0-1{
+.lh-0-1 {
     line-height: 0.1rem;
 }
 
-.lh-1-5{
+.lh-1-5 {
     line-height: 1.5rem;
 }
 
@@ -135,29 +156,29 @@
     order: 3;
 }
 
-.txt-l{
+.txt-l {
     text-align: left;
 }
 
-.r45{
+.r45 {
     transition: 1s ease;
     rotate: 45deg;
 }
 
-.r315{
+.r315 {
     transition: 1s ease;
     rotate: -45deg;
 }
 
-.hide{
+.hide {
     transition: 0.05s;
     opacity: 0;
 }
 
-.hide-section{
+.hide-section {
     display: none;
 }
 
-.debug{
+.debug {
     border: tomato 5px dashed;
 }

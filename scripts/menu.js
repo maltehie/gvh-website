@@ -33,8 +33,10 @@ mnavLinks.forEach(mnavLink => {
 
 const btnGroups = document.getElementById('btn-groups-container');
 const ssGroups = document.getElementById('sec-subgroups');
+const scrlSubgroups = document.getElementById('scrl-subgroups');
 
 btnGroups.addEventListener('click', function(){
     ssGroups.classList.toggle('hide-section');
+    scrlSubgroups.classList.toggle('hide-section');
 });
 
